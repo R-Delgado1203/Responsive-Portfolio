@@ -296,3 +296,40 @@ input[type=submit] {
     font-size: 100%;
   }
 }
+
+@media screen and (max-width: 411px){
+  #masthead{
+    position: static;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  #logo{
+    font-size: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0px;
+    
+  }
+  nav{
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+  }
+  #main-container{
+    padding-top: 20px;
+    font-size: 100%;  
+  }
+  .main-section{
+    width: 90%;
+    margin: 20px;
+    font-size: 100%;
+  }
+  .auth-image{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px
+  }
+  h1{
+    text-align: center;
+  }
+}
