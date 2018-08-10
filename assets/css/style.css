@@ -284,20 +284,28 @@ input[type=submit] {
   nav{
     overflow: hidden;
     float: left;
-    margin-left: 160px;
+    margin-left: 50px;
   }
   #main-container{
     padding-top: 20px;
     font-size: 100%;  
   }
   .main-section{
-    width: 95%;
-    margin: 15px;
+    width: 90%;
+    margin: 20px;
     font-size: 100%;
+  }
+  .auth-image{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px
+  }
+  h1{
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 412px){
+/* @media screen and (max-width: 412px){
   #masthead{
     position: static;
     margin-bottom: 0;
@@ -332,4 +340,4 @@ input[type=submit] {
   h1{
     text-align: center;
   }
-}
+} */
