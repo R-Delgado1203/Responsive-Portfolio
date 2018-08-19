@@ -284,20 +284,21 @@ input[type=submit] {
   nav{
     overflow: hidden;
     float: left;
-    margin-left: 50px;
+    margin-left: 160px;
   }
   #main-container{
     padding-top: 20px;
-    font-size: 100%;  
+    font-size: 100%;
+
   }
   .main-section{
-    width: 90%;
+    width: 93.5%;    
     margin: 20px;
     font-size: 100%;
   }
   .auth-image{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 150px;
+    margin-left: 155px;
     padding-bottom: 20px
   }
   h1{
